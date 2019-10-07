@@ -1,0 +1,308 @@
+@media screen and (max-width:450px){
+body{
+    .hidden{
+        display: none;
+    }
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    background-color: aquamarine;
+    h1{
+        font-size: 30px;
+        color: blueviolet;
+    }
+}
+}
+
+@media screen and (min-width:450px){
+    body{
+        .hidden{display: none;}
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+        background-color: black;
+        h1{
+            color:red;
+        }
+    }
+}
+@media screen and (min-width:800px){
+body{
+    .hidden{
+        display: none;
+    }
+    * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+    }
+    .button{
+        background-color: #fff;
+        border-radius: 15px;
+        border: solid 1px #ffda00;
+        color: black;
+        padding: 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+    }
+    .button1{
+        .button{
+            background-color: #ffda00;
+            border-radius: 0px;
+            border: solid 1px #fff;
+            color: black;
+            padding: 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 10px;
+        }
+    }
+    background-color: black;
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+    nav{
+        .socialMedia {
+            float: right;
+            position: relative;
+            margin-top: -400px;
+            padding-top: 0px;  
+            width: 1000px;
+    
+    }
+       img{
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin-left: 30px;
+        margin-top: 0px;
+    }
+    }
+    header{
+    h1{
+        color: #ffda00;
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+        font-size: 46px;
+        margin-top: 180px;
+        letter-spacing:10px;
+    }
+    p{
+        color: azure;
+        font-size: 16px;
+        width: 700px;
+        margin:  0 auto;
+        margin-top: 30px
+    }
+    h2{
+        color: #ffda00;
+        width: 1200px;
+        margin-top: 80px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 10px;
+    }}
+    #infoDetails{
+        width: 1280px;
+        margin: 0 auto;
+        text-align: center;
+        #yellowBar{
+            width: 1280px;
+            text-align: center;
+            margin: 0 auto;
+            background-color: #ffda00;
+            height: 120px;
+            p{
+                font-size: 16px;
+                color: black;
+                text-align: center;
+                margin-top: 30px;
+                padding-top: 40px;
+            }
+        }
+        #Pro{
+            width: 1280px;
+            margin: 0 auto;
+            text-align: center;
+            height: 500px;
+            background-color:white;
+           #product{
+            width: 1280px;
+            height: 400px;
+            background-color:white;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 0px;
+            text-align: center;
+            margin: 0 auto;
+            img{
+                width: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 80px;
+            }
+            p{
+                color: black;
+            }
+            
+        } 
+        }
+        
+    }
+    #videoPart{
+        width: 1280px;
+        height: 520px;
+    }
+    #showPic{
+        width: 1280px;
+        height: 800px;
+        margin: 0 auto;
+        text-align: center;
+        #whiteBar{
+            width: 1280px;
+            height: 200px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #fff;
+            h3{
+                font-size: 30px;
+                color: #ffda00;
+                text-align: center;
+                padding-top: 30px;
+            }
+            p{
+                font-size: 18px;
+                color: black;
+                text-align: center;
+            }
+        }
+        #introPic{
+            width: 1280px;
+            height: 300px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content:center;
+            #picText{
+                width: 500px;
+                height: 200px;
+                background-color:#ffda00;
+            }
+            img{
+               
+                height: 200px; 
+                 width:auto;
+            }
+        }
+        #pic2{
+            width: 1280px;
+            height: 400px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            img{
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+    #whiteBar2{
+        width: 1280px;
+        margin: 0 auto;
+        text-align: center;
+        height: 160px;
+        background-color: #fff;
+
+    }
+    #coop{
+        width: 1280px;
+        margin: 0 auto;
+        text-align: center;
+        height: 500px;
+        h3{
+            color: #ffda00;
+            text-align: center;
+            margin: 0 auto; 
+            font-size: 15px;
+        }
+        p{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #coopIcon{
+            display: flex;
+            justify-content: space-around;
+            width: 800px;
+            text-align: center;
+            margin: 0 auto;
+            img{
+                height: 50px;
+                width: auto;
+            }
+        }
+
+    }
+    #Contact{
+        width: 1280px;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: #fff;
+        h2{
+            margin-left: 10px;
+            color: #ffda00;
+            margin-top: 60px;
+
+        }
+    }
+    #conWay{
+        width: 1280px;
+        text-align: center;
+        margin: 0 auto;
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ffda00;
+        img{
+            width: 60px;
+            height: auto;
+        }
+    }
+    footer{
+        width: 1280px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+        p{
+            width: 1280px;
+            height: 50px;
+            color: #ffda00;
+        }
+        #SC{
+            width: 300px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            img{
+                margin-left: 20px;
+                width: 50px;
+                height: auto;
+            }
+
+            }
+        }
+
+    }
+}
