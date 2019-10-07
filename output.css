@@ -1,6 +1,6 @@
 @media screen and (max-width: 450px) {
   body {
-    background-color: #efefef;
+    background-color: #ffffff;
     width: 450px;
     text-align: center;
     margin: 0 auto;
@@ -18,22 +18,22 @@
     border-radius: 15px;
     border: solid 1px #ffda00;
     color: black;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 7px;
+    font-size: 12px;
   }
   body .button1 {
     background-color: #ffd;
     border-radius: 0px;
     border: solid 1px #fff;
     color: black;
-    padding: 8px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 5px;
+    font-size: 15px;
   }
   body header {
     background-color: #000;
@@ -57,11 +57,11 @@
   body header h1 {
     color: #ffda00;
     text-align: center;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
     font-size: 26px;
     margin-top: 80px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
   }
   body header p {
     color: azure;
@@ -76,13 +76,14 @@
     margin-top: 80px;
     margin: 0 auto;
     text-align: center;
-    font-size: 20px;
-    letter-spacing: 4px;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
   body #infoDetails {
     width: 450px;
     margin: 0 auto;
     text-align: center;
+    background-color: #000;
   }
   body #infoDetails #yellowBar {
     width: 450px;
@@ -103,27 +104,66 @@
     margin: 0 auto;
     text-align: center;
     height: 700px;
-    background-color: white;
+    background-color: black;
   }
   body #infoDetails #Pro #product {
     width: 450px;
     height: 600px;
-    background-color: white;
+    background-color: black;
     display: flex;
     flex-direction: column-reverse;
-    margin-left: 0px;
+    margin-left: 250px;
     text-align: center;
     margin: 0 auto;
   }
   body #infoDetails #Pro #product img {
-    width: 60px;
-    height: 60px;
+    width: 160px;
+    height: auto;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
+    text-align: center;
     margin-top: 80px;
   }
   body #infoDetails #Pro #product p {
-    color: black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body #infoDetails #Pro #product h3 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body #infoDetails #Pro #product #pro1 img {
+    margin-top: -500px;
+    margin-left: 200px;
+  }
+  body #infoDetails #Pro #product #pro1 h3 {
+    margin-top: 0px;
+  }
+  body #infoDetails #Pro #product #pro1 p {
+    margin-top: 0px;
+  }
+  body #infoDetails #Pro #product #pro2 img {
+    margin-left: 200px;
+  }
+  body #infoDetails #Pro #product #pro2 h3 {
+    margin-left: 100px;
+    margin-top: -40px;
+  }
+  body #infoDetails #Pro #product #pro2 p {
+    margin-top: 0px;
+    margin-left: -80px;
+  }
+  body #infoDetails #Pro #product #APP img {
+    margin-left: 200px;
+  }
+  body #infoDetails #Pro #product #APP h3 {
+    margin-left: 120px;
+    margin-top: -50px;
+  }
+  body #infoDetails #Pro #product #APP p {
+    margin-left: -30px;
   }
   body #videoPart {
     width: 450px;
@@ -131,13 +171,13 @@
   }
   body #showPic {
     width: 450px;
-    height: 400px;
+    height: 600px;
     margin: 0 auto;
     text-align: center;
   }
   body #showPic #whiteBar {
     width: 450px;
-    height: 200px;
+    height: 80px;
     margin: 0 auto;
     text-align: center;
     background-color: #000;
@@ -155,7 +195,7 @@
   }
   body #showPic #introPic {
     width: 450px;
-    height: 400px;
+    height: 200px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -163,13 +203,13 @@
     overflow: hidden;
   }
   body #showPic #introPic #picText {
-    width: 225px;
+    width: 450px;
     height: 200px;
     background-color: #ffda00;
   }
   body #showPic #introPic img {
-    height: 200px;
-    width: auto;
+    width: 130px;
+    height: auto;
   }
   body #showPic #pic2 {
     width: 450px;
@@ -185,27 +225,30 @@
   }
   body #whiteBar2 {
     width: 450px;
-    margin: 0 auto;
+    margin: 20 20 0 0;
     text-align: center;
-    height: 100px;
+    height: 80px;
     background-color: #000;
   }
   body #coop {
     width: 450px;
     margin: 0 auto;
     text-align: center;
-    height: 500px;
+    height: 250px;
+    background-color: blueviolet;
   }
   body #coop h3 {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
+    margin-top: 0px;
   }
   body #coop p {
-    color: black;
+    color: white;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 80px;
   }
   body #coop #coopIcon {
     display: flex;
@@ -213,6 +256,7 @@
     width: 300px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 80px;
   }
   body #coop #coopIcon img {
     height: auto;
@@ -220,21 +264,22 @@
   }
   body #Contact {
     width: 450px;
-    height: 500px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
-    background-color: #000;
+    background-color: #ffffff;
   }
   body #Contact h2 {
     margin-left: 10px;
     color: #ffda00;
     margin-top: 60px;
+    font-size: 20px;
   }
   body #conWay {
     width: 450px;
     text-align: center;
     margin: 0 auto;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     background-color: #ffda00;
@@ -248,11 +293,13 @@
     height: 200px;
     text-align: center;
     margin: 0 auto;
+    background-color: #000;
   }
   body footer p {
     width: 450px;
     height: 50px;
     color: #ffda00;
+    margin-top: 0px;
   }
   body footer #SC {
     width: 300px;
@@ -261,7 +308,7 @@
     justify-content: center;
   }
   body footer #SC img {
-    margin-left: 20px;
+    margin-left: 80px;
     width: 50px;
     height: auto;
   }
@@ -323,7 +370,7 @@
   header #socialMedia {
     float: right;
     position: relative;
-    margin-top: -400px;
+    margin-top: 0px;
     padding-top: 0px;
     width: 1000px;
   }
@@ -397,14 +444,43 @@
     margin: 0 auto;
   }
   #infoDetails #Pro #product img {
-    width: 60px;
-    height: 60px;
+    width: 260px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
   }
   #infoDetails #Pro #product p {
     color: black;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  #infoDetails #Pro #product #pro1 img {
+    margin-left: 130px;
+    margin-top: 80px;
+  }
+  #infoDetails #Pro #product #pro1 h3 {
+    margin-top: -60px;
+  }
+  #infoDetails #Pro #product #pro1 p {
+    margin-top: 0px;
+  }
+  #infoDetails #Pro #product #pro2 h3 {
+    margin-left: -100px;
+    margin-top: -60px;
+  }
+  #infoDetails #Pro #product #pro2 p {
+    margin-top: 0px;
+    margin-left: -80px;
+  }
+  #infoDetails #Pro #product #APP h3 {
+    margin-left: -120px;
+    margin-top: -70px;
+  }
+  #infoDetails #Pro #product #APP p {
+    margin-left: -50px;
   }
 
   #videoPart {
@@ -438,7 +514,7 @@
   }
   #showPic #introPic {
     width: 1280px;
-    height: 300px;
+    height: 800px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -446,11 +522,11 @@
   }
   #showPic #introPic #picText {
     width: 500px;
-    height: 200px;
+    height: 400px;
     background-color: #ffda00;
   }
   #showPic #introPic img {
-    height: 200px;
+    height: 400px;
     width: auto;
   }
   #showPic #pic2 {
@@ -462,7 +538,7 @@
     justify-content: center;
   }
   #showPic #pic2 img {
-    height: 300px;
+    height: 400px;
     width: auto;
   }
 
@@ -470,26 +546,30 @@
     width: 1280px;
     margin: 0 auto;
     text-align: center;
-    height: 160px;
+    height: 100px;
     background-color: #fff;
+    margin-top: -380px;
   }
 
   #coop {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
-    height: 500px;
+    height: 300px;
+    margin-top: 380px;
   }
   #coop h3 {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
+    margin-top: 80px;
   }
   #coop p {
     color: white;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 80px;
   }
   #coop #coopIcon {
     display: flex;
@@ -497,6 +577,7 @@
     width: 800px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 80px;
   }
   #coop #coopIcon img {
     height: 50px;
@@ -542,7 +623,7 @@
     color: #ffda00;
   }
   footer #SC {
-    width: 300px;
+    width: 800px;
     height: 50px;
     display: flex;
     justify-content: center;
