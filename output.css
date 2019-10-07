@@ -1,6 +1,9 @@
 @media screen and (max-width: 450px) {
   body {
-    background-color: aquamarine;
+    background-color: #efefef;
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
   }
   body .hidden {
     display: none;
@@ -10,9 +13,257 @@
     border: 0;
     padding: 0;
   }
-  body h1 {
-    font-size: 30px;
-    color: blueviolet;
+  body .button {
+    background-color: #fff;
+    border-radius: 15px;
+    border: solid 1px #ffda00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7px;
+  }
+  body .button1 {
+    background-color: #ffd;
+    border-radius: 0px;
+    border: solid 1px #fff;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 5px;
+  }
+  body header {
+    background-color: #000;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body header #socialMedia {
+    float: right;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 300px;
+  }
+  body header img {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+  body header h1 {
+    color: #ffda00;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 26px;
+    margin-top: 80px;
+    letter-spacing: 4px;
+  }
+  body header p {
+    color: azure;
+    font-size: 13px;
+    width: 430px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  body header h2 {
+    color: #ffda00;
+    width: 420px;
+    margin-top: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 4px;
+  }
+  body #infoDetails {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body #infoDetails #yellowBar {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #ffda00;
+    height: 70px;
+  }
+  body #infoDetails #yellowBar p {
+    font-size: 13px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+  }
+  body #infoDetails #Pro {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    height: 700px;
+    background-color: white;
+  }
+  body #infoDetails #Pro #product {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body #infoDetails #Pro #product img {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 80px;
+  }
+  body #infoDetails #Pro #product p {
+    color: black;
+  }
+  body #videoPart {
+    width: 450px;
+    height: 400px;
+  }
+  body #showPic {
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body #showPic #whiteBar {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+  }
+  body #showPic #whiteBar h3 {
+    font-size: 20px;
+    color: #ffda00;
+    text-align: center;
+    padding-top: 30px;
+  }
+  body #showPic #whiteBar p {
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+  body #showPic #introPic {
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
+  body #showPic #introPic #picText {
+    width: 225px;
+    height: 200px;
+    background-color: #ffda00;
+  }
+  body #showPic #introPic img {
+    height: 200px;
+    width: auto;
+  }
+  body #showPic #pic2 {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  body #showPic #pic2 img {
+    height: 200px;
+    width: auto;
+  }
+  body #whiteBar2 {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100px;
+    background-color: #000;
+  }
+  body #coop {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    height: 500px;
+  }
+  body #coop h3 {
+    color: #ffda00;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+  }
+  body #coop p {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+  }
+  body #coop #coopIcon {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body #coop #coopIcon img {
+    height: auto;
+    width: 50px;
+  }
+  body #Contact {
+    width: 450px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #000;
+  }
+  body #Contact h2 {
+    margin-left: 10px;
+    color: #ffda00;
+    margin-top: 60px;
+  }
+  body #conWay {
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffda00;
+  }
+  body #conWay img {
+    width: 60px;
+    height: auto;
+  }
+  body footer {
+    width: 450px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body footer p {
+    width: 450px;
+    height: 50px;
+    color: #ffda00;
+  }
+  body footer #SC {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  body footer #SC img {
+    margin-left: 20px;
+    width: 50px;
+    height: auto;
   }
 }
 @media screen and (min-width: 450px) {
@@ -68,21 +319,22 @@
     display: inline-block;
     font-size: 10px;
   }
-  body nav .socialMedia {
+
+  header #socialMedia {
     float: right;
     position: relative;
     margin-top: -400px;
     padding-top: 0px;
     width: 1000px;
   }
-  body nav img {
+  header img {
     width: 40px;
     height: 40px;
     float: right;
     margin-left: 30px;
     margin-top: 0px;
   }
-  body header h1 {
+  header h1 {
     color: #ffda00;
     text-align: center;
     width: 500px;
@@ -91,14 +343,14 @@
     margin-top: 180px;
     letter-spacing: 10px;
   }
-  body header p {
+  header p {
     color: azure;
     font-size: 16px;
     width: 700px;
     margin: 0 auto;
     margin-top: 30px;
   }
-  body header h2 {
+  header h2 {
     color: #ffda00;
     width: 1200px;
     margin-top: 80px;
@@ -107,33 +359,34 @@
     font-size: 40px;
     letter-spacing: 10px;
   }
-  body #infoDetails {
+
+  #infoDetails {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
   }
-  body #infoDetails #yellowBar {
+  #infoDetails #yellowBar {
     width: 1280px;
     text-align: center;
     margin: 0 auto;
     background-color: #ffda00;
     height: 120px;
   }
-  body #infoDetails #yellowBar p {
+  #infoDetails #yellowBar p {
     font-size: 16px;
     color: black;
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
   }
-  body #infoDetails #Pro {
+  #infoDetails #Pro {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
     height: 500px;
     background-color: white;
   }
-  body #infoDetails #Pro #product {
+  #infoDetails #Pro #product {
     width: 1280px;
     height: 400px;
     background-color: white;
@@ -143,45 +396,47 @@
     text-align: center;
     margin: 0 auto;
   }
-  body #infoDetails #Pro #product img {
+  #infoDetails #Pro #product img {
     width: 60px;
     height: 60px;
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
   }
-  body #infoDetails #Pro #product p {
+  #infoDetails #Pro #product p {
     color: black;
   }
-  body #videoPart {
+
+  #videoPart {
     width: 1280px;
     height: 520px;
   }
-  body #showPic {
+
+  #showPic {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
     text-align: center;
   }
-  body #showPic #whiteBar {
+  #showPic #whiteBar {
     width: 1280px;
     height: 200px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
-  body #showPic #whiteBar h3 {
+  #showPic #whiteBar h3 {
     font-size: 30px;
     color: #ffda00;
     text-align: center;
     padding-top: 30px;
   }
-  body #showPic #whiteBar p {
+  #showPic #whiteBar p {
     font-size: 18px;
     color: black;
     text-align: center;
   }
-  body #showPic #introPic {
+  #showPic #introPic {
     width: 1280px;
     height: 300px;
     margin: 0 auto;
@@ -189,16 +444,16 @@
     display: flex;
     justify-content: center;
   }
-  body #showPic #introPic #picText {
+  #showPic #introPic #picText {
     width: 500px;
     height: 200px;
     background-color: #ffda00;
   }
-  body #showPic #introPic img {
+  #showPic #introPic img {
     height: 200px;
     width: auto;
   }
-  body #showPic #pic2 {
+  #showPic #pic2 {
     width: 1280px;
     height: 400px;
     margin: 0 auto;
@@ -206,58 +461,62 @@
     display: flex;
     justify-content: center;
   }
-  body #showPic #pic2 img {
+  #showPic #pic2 img {
     height: 300px;
     width: auto;
   }
-  body #whiteBar2 {
+
+  #whiteBar2 {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
     height: 160px;
     background-color: #fff;
   }
-  body #coop {
+
+  #coop {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
     height: 500px;
   }
-  body #coop h3 {
+  #coop h3 {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
   }
-  body #coop p {
+  #coop p {
     color: white;
     text-align: center;
     margin-top: 30px;
   }
-  body #coop #coopIcon {
+  #coop #coopIcon {
     display: flex;
     justify-content: space-around;
     width: 800px;
     text-align: center;
     margin: 0 auto;
   }
-  body #coop #coopIcon img {
+  #coop #coopIcon img {
     height: 50px;
     width: auto;
   }
-  body #Contact {
+
+  #Contact {
     width: 1280px;
     height: 500px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
-  body #Contact h2 {
+  #Contact h2 {
     margin-left: 10px;
     color: #ffda00;
     margin-top: 60px;
   }
-  body #conWay {
+
+  #conWay {
     width: 1280px;
     text-align: center;
     margin: 0 auto;
@@ -266,28 +525,29 @@
     justify-content: space-around;
     background-color: #ffda00;
   }
-  body #conWay img {
+  #conWay img {
     width: 60px;
     height: auto;
   }
-  body footer {
+
+  footer {
     width: 1280px;
     height: 200px;
     text-align: center;
     margin: 0 auto;
   }
-  body footer p {
+  footer p {
     width: 1280px;
     height: 50px;
     color: #ffda00;
   }
-  body footer #SC {
+  footer #SC {
     width: 300px;
     height: 50px;
     display: flex;
     justify-content: center;
   }
-  body footer #SC img {
+  footer #SC img {
     margin-left: 20px;
     width: 50px;
     height: auto;
