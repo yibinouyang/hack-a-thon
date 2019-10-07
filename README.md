@@ -1,1 +1,1 @@
-# hack-a-thon
+this is the midterm project

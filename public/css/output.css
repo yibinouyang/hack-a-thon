@@ -1,0 +1,15 @@
+main {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  background-color: aquamarine;
+}
+body h1 {
+  font-size: 30px;
+  color: blueviolet;
+}
+
+/*# sourceMappingURL=output.css.map */
