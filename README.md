@@ -14,7 +14,7 @@ Html5, css, and Java Script.
 
 Designed with Photoshop and Illustrator, a style guide for Indesign.
 
-The Smart Thermostat model Aand rendering the animation by C4d .
+The Smart Thermostat model Aand rendering the animation by C4D.
 
 ## Authors
 
