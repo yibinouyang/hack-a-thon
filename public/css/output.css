@@ -74,6 +74,7 @@ body header h1 {
   font-size: 36px;
   margin-top: 80px;
   letter-spacing: 2px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body header p {
   color: azure;
@@ -81,6 +82,7 @@ body header p {
   width: 430px;
   margin: 0 auto;
   margin-top: 30px;
+  font-family: "Ubuntu", sans-serif;
 }
 body header h2 {
   color: #ffda00;
@@ -90,6 +92,7 @@ body header h2 {
   text-align: center;
   font-size: 16px;
   letter-spacing: 2px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body #yellowBar {
   width: 450px;
@@ -106,6 +109,7 @@ body #yellowBar p {
   margin-top: 30px;
   padding-top: 40px;
   width: 450px;
+  font-family: "Fjalla One", sans-serif;
 }
 body #Pro {
   display: inline-block;
@@ -124,6 +128,7 @@ body #Pro img {
 }
 body #Pro h3 {
   color: #ffda00;
+  font-family: "Be Vietnam", sans-serif;
 }
 body #Pro p {
   color: #ffffff;
@@ -158,11 +163,13 @@ body #whiteBar h3 {
   color: #ffda00;
   text-align: center;
   padding-top: 30px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body #whiteBar p {
   font-size: 16px;
   color: blueviolet;
   text-align: center;
+  font-family: "Fjalla One", sans-serif;
 }
 body #introPic {
   width: 450px;
@@ -209,12 +216,14 @@ body #coop h3 {
   margin: 0 auto;
   font-size: 25px;
   margin-top: 0px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body #coop p {
   color: white;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 80px;
+  font-family: "Fjalla One", sans-serif;
 }
 body #coop #coopIcon {
   display: flex;
@@ -240,6 +249,7 @@ body #Contact h2 {
   color: #ffda00;
   margin-top: 60px;
   font-size: 20px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body #conWay {
   width: 450px;
@@ -257,6 +267,7 @@ body #conWay img {
 body #conWay p {
   text-align: center;
   margin-top: -30px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body footer {
   width: 450px;
@@ -270,6 +281,7 @@ body footer p {
   height: 50px;
   color: #ffda00;
   margin-top: 0px;
+  font-family: "Be Vietnam", sans-serif;
 }
 body footer #SC {
   width: 300px;
@@ -360,6 +372,7 @@ body footer #SC img {
     font-size: 30px;
     margin-top: 80px;
     letter-spacing: 2px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body header p {
     color: azure;
@@ -367,6 +380,7 @@ body footer #SC img {
     width: 630px;
     margin: 0 auto;
     margin-top: 30px;
+    font-family: "Ubuntu", sans-serif;
   }
   body header h2 {
     color: #ffda00;
@@ -376,6 +390,7 @@ body footer #SC img {
     text-align: center;
     font-size: 16px;
     letter-spacing: 2px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body #yellowBar {
     width: 1000px;
@@ -393,6 +408,7 @@ body footer #SC img {
     margin-top: 30px;
     padding-top: 40px;
     width: 800px;
+    font-family: "Fjalla One", sans-serif;
   }
   body #Pro {
     display: inline-block;
@@ -400,7 +416,7 @@ body footer #SC img {
     text-align: center;
     background-color: #ffffff;
     width: 800px;
-    height: 800px;
+    height: 500px;
   }
   body #Pro img {
     width: 100px;
@@ -410,10 +426,12 @@ body footer #SC img {
   }
   body #Pro p {
     color: #000;
+    font-family: "Fjalla One", sans-serif;
   }
   body #Pro h3 {
     color: #ffda00;
     margin-top: -50px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body #ButtonPart {
     width: 800px;
@@ -429,7 +447,7 @@ body footer #SC img {
     background-color: grey;
   }
   body #videoPart video {
-    width: 350px;
+    width: 550px;
     height: auto;
   }
   body #introPic {
@@ -471,6 +489,7 @@ body footer #SC img {
   }
   body #whiteBar p {
     color: blueviolet;
+    font-family: "Fjalla One", sans-serif;
   }
   body #whiteBar2 {
     width: 800px;
@@ -502,6 +521,7 @@ body footer #SC img {
     margin-bottom: 80px;
     width: 500px;
     margin-left: 80px;
+    font-family: "Fjalla One", sans-serif;
   }
   body #coop #coopIcon {
     display: flex;
@@ -527,6 +547,7 @@ body footer #SC img {
     color: #ffda00;
     margin-top: 60px;
     font-size: 20px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body #conWay {
     width: 800px;
@@ -638,6 +659,7 @@ body footer #SC img {
     font-size: 46px;
     margin-top: 180px;
     letter-spacing: 4px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body header p {
     color: azure;
@@ -645,6 +667,7 @@ body footer #SC img {
     width: 700px;
     margin: 0 auto;
     margin-top: 30px;
+    font-family: "Ubuntu", sans-serif;
   }
   body header h2 {
     color: #ffda00;
@@ -654,6 +677,7 @@ body footer #SC img {
     text-align: center;
     font-size: 40px;
     letter-spacing: 4px;
+    font-family: "Be Vietnam", sans-serif;
   }
   body #yellowBar {
     width: 1280px;
@@ -724,6 +748,7 @@ body footer #SC img {
     font-size: 15px;
     color: black;
     text-align: center;
+    font-family: "Fjalla One", sans-serif;
   }
   body #introPic {
     width: 1280px;
@@ -751,6 +776,7 @@ body footer #SC img {
     font-size: 16px;
     color: #000;
     height: 300px;
+    font-family: "Fjalla One", sans-serif;
   }
   body #introPic img {
     height: auto;
@@ -796,6 +822,7 @@ body footer #SC img {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 80px;
+    font-family: "Fjalla One", sans-serif;
   }
   body #coop #coopIcon {
     display: flex;
@@ -826,6 +853,7 @@ body footer #SC img {
     width: 450px;
     text-align: center;
     margin: 0 auto;
+    font-family: "Fjalla One", sans-serif;
   }
   body #conWay {
     width: 1280px;
