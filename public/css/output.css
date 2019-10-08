@@ -844,6 +844,26 @@ body footer #SC img {
     background-color: #fff;
     margin-top: -50px;
   }
+  body #Contact #chart11 {
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  body #Contact #Contact1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  body #Contact #chart11 img {
+    display: none;
+  }
+  body #Contact #contactForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 40px;
+  }
   body #Contact h2 {
     margin-left: 10px;
     color: #ffda00;

@@ -896,6 +896,26 @@ body{
             text-align: center;
             background-color: #fff;
             margin-top: -50px;
+            #chart11{
+                max-width: 1080px;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+            }
+            #Contact1{
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+            }
+            #chart11 img{
+                display: none;
+            }
+            #contactForm{
+                display: flex;
+                flex-direction: column;
+                margin-left: 130px;
+                margin-top: 40px;
+            }
             h2{
                 margin-left: 10px;
                 color: #ffda00;
