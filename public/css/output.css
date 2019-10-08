@@ -672,7 +672,7 @@ body footer #SC img {
     text-align: center;
     background-color: #ffffff;
     width: 1280px;
-    height: 300px;
+    height: 400px;
   }
   body #Pro img {
     width: 260px;
@@ -690,6 +690,12 @@ body footer #SC img {
   body #videoPart {
     width: 1280px;
     height: 520px;
+  }
+  body #videoPart video {
+    width: 800px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
   }
   body #whiteBar {
     width: 1280px;
@@ -709,14 +715,6 @@ body footer #SC img {
     color: black;
     text-align: center;
   }
-  body .pic11 img {
-    width: 300px;
-    height: auto;
-  }
-  body .pic22 img {
-    width: 320px;
-    height: auto;
-  }
   body #introPic {
     width: 1280px;
     height: 400px;
@@ -731,9 +729,22 @@ body footer #SC img {
     width: 500px;
     height: 400px;
   }
+  body #introPic #picText h3 {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    color: white;
+  }
+  body #introPic #picText p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #000;
+    height: 300px;
+  }
   body #introPic img {
     height: auto;
-    width: 300px;
+    width: 700px;
   }
   body #pic2 {
     width: 1280px;
