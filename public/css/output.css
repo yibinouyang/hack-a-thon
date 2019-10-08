@@ -83,10 +83,10 @@ body #yellowBar {
   text-align: center;
   margin: 0 auto;
   background-color: #ffda00;
-  height: 70px;
+  height: 50px;
 }
 body #yellowBar p {
-  font-size: 13px;
+  font-size: 23px;
   color: whitesmoke;
   text-align: center;
   margin-top: 30px;
@@ -123,65 +123,59 @@ body #ButtonPart {
 body #videoPart {
   width: 450px;
   height: 400px;
-  background-color: aqua;
+  background-color: grey;
 }
-body #showPic {
-  width: 450px;
-  height: 600px;
-  margin: 0 auto;
-  text-align: center;
-}
-body #showPic #whiteBar {
+body #whiteBar {
   width: 450px;
   height: 80px;
   margin: 0 auto;
   text-align: center;
   background-color: #000;
 }
-body #showPic #whiteBar h3 {
+body #whiteBar h3 {
   font-size: 20px;
   color: #ffda00;
   text-align: center;
   padding-top: 30px;
 }
-body #showPic #whiteBar p {
+body #whiteBar p {
   font-size: 13px;
   color: white;
   text-align: center;
 }
-body #showPic #introPic {
+body #introPic {
   width: 450px;
-  height: 200px;
+  height: 300px;
   margin: 0 auto;
   text-align: center;
   display: flex;
   justify-content: center;
   overflow: hidden;
 }
-body #showPic #introPic #picText {
-  width: 450px;
-  height: 200px;
+body #introPic #picText {
+  width: 200px;
+  height: 300px;
   background-color: #ffda00;
 }
-body #showPic #introPic img {
-  width: 130px;
+body #introPic img {
+  width: 250px;
   height: auto;
 }
-body #showPic #pic2 {
+body #pic2 {
   width: 450px;
-  height: 200px;
+  height: 300px;
   margin: 0 auto;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-body #showPic #pic2 img {
-  height: 200px;
-  width: auto;
+body #pic2 img {
+  height: auto;
+  width: 150px;
 }
 body #whiteBar2 {
   width: 450px;
-  margin: 20 20 0 0;
+  margin: 0 auto;
   text-align: center;
   height: 80px;
   background-color: #000;
@@ -197,7 +191,7 @@ body #coop h3 {
   color: #ffda00;
   text-align: center;
   margin: 0 auto;
-  font-size: 15px;
+  font-size: 25px;
   margin-top: 0px;
 }
 body #coop p {
@@ -403,32 +397,40 @@ body footer #SC img {
   }
   body #introPic {
     width: 800px;
-    height: 600px;
+    height: 200px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     background-color: #ffda00;
+    overflow: hidden;
   }
   body #introPic #picText {
     width: 300px;
-    height: 400px;
+    height: 200px;
   }
   body #introPic img {
-    height: 400px;
+    height: 200px;
     width: auto;
   }
   body #pic2 {
     width: 800px;
-    height: 400px;
+    height: 200px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
   }
   body #pic2 img {
-    height: 400px;
+    height: 200px;
     width: auto;
+  }
+  body #whiteBar {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    margin-top: 0 auto;
+    background-color: #ffffff;
   }
   body #whiteBar2 {
     width: 800px;
@@ -443,8 +445,8 @@ body footer #SC img {
     margin: 0 auto;
     text-align: center;
     height: 250px;
-    background-color: white;
-    margin-top: 80px;
+    background-color: black;
+    margin-top: 20px;
   }
   body #coop h3 {
     color: #ffda00;
@@ -476,7 +478,7 @@ body footer #SC img {
     height: 400px;
     margin: 0 auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #000;
   }
   body #Contact h2 {
     margin-left: 10px;
@@ -643,7 +645,7 @@ body footer #SC img {
   }
   body #whiteBar {
     width: 1280px;
-    height: 200px;
+    height: 60px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
@@ -661,7 +663,7 @@ body footer #SC img {
   }
   body #introPic {
     width: 1280px;
-    height: 800px;
+    height: 400px;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -701,7 +703,8 @@ body footer #SC img {
     margin: 0 auto;
     text-align: center;
     height: 300px;
-    margin-top: 380px;
+    margin-top: 80px;
+    color: #000;
   }
   body #coop h3 {
     color: #ffda00;
@@ -734,6 +737,7 @@ body footer #SC img {
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
+    margin-top: -50px;
   }
   body #Contact h2 {
     margin-left: 10px;
@@ -744,7 +748,7 @@ body footer #SC img {
     width: 1280px;
     text-align: center;
     margin: 0 auto;
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: space-around;
     background-color: #ffda00;
@@ -763,6 +767,7 @@ body footer #SC img {
     width: 1280px;
     height: 50px;
     color: #ffda00;
+    margin-top: 20px;
   }
   body footer #SC {
     width: 800px;
