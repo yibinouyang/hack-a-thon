@@ -433,7 +433,7 @@ body footer #SC img {
     text-align: center;
     background-color: #ffffff;
     width: 800px;
-    height: 500px;
+    height: 400px;
   }
   body #Pro img {
     width: 100px;
@@ -460,11 +460,11 @@ body footer #SC img {
   }
   body #videoPart {
     width: 800px;
-    height: 450px;
+    height: 350px;
     background-color: grey;
   }
   body #videoPart video {
-    width: 550px;
+    width: 600px;
     height: auto;
   }
   body #introPic {
@@ -743,7 +743,7 @@ body footer #SC img {
     height: 400px;
   }
   body #Pro img {
-    width: 260px;
+    width: 160px;
     display: inline-block;
     margin: 0 auto;
     text-align: center;
@@ -773,13 +773,13 @@ body footer #SC img {
     background-color: #fff;
   }
   body #whiteBar h3 {
-    font-size: 20px;
+    font-size: 23px;
     color: #ffda00;
     text-align: center;
     padding-top: 30px;
   }
   body #whiteBar p {
-    font-size: 15px;
+    font-size: 18px;
     color: black;
     text-align: center;
     font-family: "Fjalla One", sans-serif;
@@ -855,6 +855,7 @@ body footer #SC img {
     color: white;
     text-align: center;
     margin-top: 30px;
+    margin-left: 300px;
     margin-bottom: 80px;
     font-family: "Fjalla One", sans-serif;
   }
