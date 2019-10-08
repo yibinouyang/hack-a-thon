@@ -1,7 +1,278 @@
-@media screen and (max-width: 450px) {
+body {
+  background-color: #ffffff;
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+body .hidden {
+  display: none;
+}
+body * {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body .button {
+  background-color: #fff;
+  border-radius: 15px;
+  border: solid 1px #ffda00;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+body .button1 {
+  background-color: #ffd;
+  border-radius: 0px;
+  border: solid 1px #fff;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+body header {
+  background-color: #000;
+  margin: 0 auto;
+  text-align: center;
+}
+body header #socialMedia {
+  float: right;
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 300px;
+}
+body header img {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+body header h1 {
+  color: #ffda00;
+  text-align: center;
+  width: 250px;
+  margin: 0 auto;
+  font-size: 26px;
+  margin-top: 80px;
+  letter-spacing: 2px;
+}
+body header p {
+  color: azure;
+  font-size: 13px;
+  width: 430px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+body header h2 {
+  color: #ffda00;
+  width: 420px;
+  margin-top: 80px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+body #yellowBar {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ffda00;
+  height: 70px;
+}
+body #yellowBar p {
+  font-size: 13px;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  width: 450px;
+}
+body #Pro {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  width: 450px;
+  height: 600px;
+}
+body #Pro img {
+  width: 160px;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+body #Pro h3 {
+  color: #ffda00;
+}
+body #Pro p {
+  color: #ffffff;
+}
+body #ButtonPart {
+  width: 450px;
+  height: 80px;
+  background-color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+body #videoPart {
+  width: 450px;
+  height: 400px;
+  background-color: aqua;
+}
+body #showPic {
+  width: 450px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+body #showPic #whiteBar {
+  width: 450px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #000;
+}
+body #showPic #whiteBar h3 {
+  font-size: 20px;
+  color: #ffda00;
+  text-align: center;
+  padding-top: 30px;
+}
+body #showPic #whiteBar p {
+  font-size: 13px;
+  color: white;
+  text-align: center;
+}
+body #showPic #introPic {
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+body #showPic #introPic #picText {
+  width: 450px;
+  height: 200px;
+  background-color: #ffda00;
+}
+body #showPic #introPic img {
+  width: 130px;
+  height: auto;
+}
+body #showPic #pic2 {
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body #showPic #pic2 img {
+  height: 200px;
+  width: auto;
+}
+body #whiteBar2 {
+  width: 450px;
+  margin: 20 20 0 0;
+  text-align: center;
+  height: 80px;
+  background-color: #000;
+}
+body #coop {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  height: 250px;
+  background-color: black;
+}
+body #coop h3 {
+  color: #ffda00;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  margin-top: 0px;
+}
+body #coop p {
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+body #coop #coopIcon {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+body #coop #coopIcon img {
+  height: auto;
+  width: 50px;
+}
+body #Contact {
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+body #Contact h2 {
+  margin-left: 10px;
+  color: #ffda00;
+  margin-top: 60px;
+  font-size: 20px;
+}
+body #conWay {
+  width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffda00;
+}
+body #conWay img {
+  width: 60px;
+  height: auto;
+}
+body footer {
+  width: 450px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #000;
+}
+body footer p {
+  width: 450px;
+  height: 50px;
+  color: #ffda00;
+  margin-top: 0px;
+}
+body footer #SC {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+body footer #SC img {
+  margin-left: 80px;
+  width: 50px;
+  height: auto;
+}
+
+@media screen and (min-width: 450px) {
   body {
-    background-color: #ffffff;
-    width: 450px;
+    background-color: #000;
+    width: 800px;
     text-align: center;
     margin: 0 auto;
   }
@@ -57,16 +328,16 @@
   body header h1 {
     color: #ffda00;
     text-align: center;
-    width: 250px;
+    width: 400px;
     margin: 0 auto;
-    font-size: 26px;
+    font-size: 30px;
     margin-top: 80px;
     letter-spacing: 2px;
   }
   body header p {
     color: azure;
-    font-size: 13px;
-    width: 430px;
+    font-size: 23px;
+    width: 630px;
     margin: 0 auto;
     margin-top: 30px;
   }
@@ -79,108 +350,68 @@
     font-size: 16px;
     letter-spacing: 2px;
   }
-  body #infoDetails {
-    width: 450px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #000;
-  }
-  body #infoDetails #yellowBar {
-    width: 450px;
+  body #yellowBar {
+    width: 1000px;
     text-align: center;
     margin: 0 auto;
+    margin-left: -180px;
     background-color: #ffda00;
     height: 70px;
   }
-  body #infoDetails #yellowBar p {
+  body #yellowBar p {
     font-size: 13px;
-    color: whitesmoke;
+    color: black;
     text-align: center;
+    margin: 0 auto;
     margin-top: 30px;
     padding-top: 40px;
+    width: 800px;
   }
-  body #infoDetails #Pro {
-    width: 450px;
+  body #Pro {
+    display: inline-block;
     margin: 0 auto;
     text-align: center;
-    height: 700px;
-    background-color: black;
+    background-color: #ffffff;
+    width: 800px;
+    height: 800px;
   }
-  body #infoDetails #Pro #product {
-    width: 450px;
-    height: 600px;
-    background-color: black;
-    display: flex;
-    flex-direction: column-reverse;
-    margin-left: 250px;
-    text-align: center;
+  body #Pro img {
+    width: 260px;
+    display: inline-block;
     margin: 0 auto;
-  }
-  body #infoDetails #Pro #product img {
-    width: 160px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    margin-top: 80px;
   }
-  body #infoDetails #Pro #product p {
-    color: white;
-    text-align: center;
-    margin: 0 auto;
+  body #Pro p {
+    color: #000;
   }
-  body #infoDetails #Pro #product h3 {
-    color: #ffffff;
-    text-align: center;
-    margin: 0 auto;
-  }
-  body #infoDetails #Pro #product #pro1 img {
-    margin-top: -500px;
-    margin-left: 200px;
-  }
-  body #infoDetails #Pro #product #pro1 h3 {
-    margin-top: 0px;
-  }
-  body #infoDetails #Pro #product #pro1 p {
-    margin-top: 0px;
-  }
-  body #infoDetails #Pro #product #pro2 img {
-    margin-left: 200px;
-  }
-  body #infoDetails #Pro #product #pro2 h3 {
-    margin-left: 100px;
-    margin-top: -40px;
-  }
-  body #infoDetails #Pro #product #pro2 p {
-    margin-top: 0px;
-    margin-left: -80px;
-  }
-  body #infoDetails #Pro #product #APP img {
-    margin-left: 200px;
-  }
-  body #infoDetails #Pro #product #APP h3 {
-    margin-left: 120px;
+  body #Pro h3 {
+    color: #ffda00;
     margin-top: -50px;
   }
-  body #infoDetails #Pro #product #APP p {
-    margin-left: -30px;
+  body #ButtonPart {
+    width: 800px;
+    height: 120px;
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -120px;
   }
   body #videoPart {
-    width: 450px;
-    height: 400px;
+    width: 800px;
+    height: 600px;
   }
   body #showPic {
-    width: 450px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     margin: 0 auto;
     text-align: center;
   }
   body #showPic #whiteBar {
-    width: 450px;
-    height: 80px;
+    width: 800px;
+    height: 120px;
     margin: 0 auto;
     text-align: center;
-    background-color: #000;
+    background-color: white;
   }
   body #showPic #whiteBar h3 {
     font-size: 20px;
@@ -189,60 +420,62 @@
     padding-top: 30px;
   }
   body #showPic #whiteBar p {
-    font-size: 13px;
-    color: white;
+    font-size: 20px;
+    color: black;
     text-align: center;
   }
   body #showPic #introPic {
-    width: 450px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
+    background-color: #ffda00;
     overflow: hidden;
   }
   body #showPic #introPic #picText {
-    width: 450px;
-    height: 200px;
-    background-color: #ffda00;
+    width: 400px;
+    height: 400px;
   }
   body #showPic #introPic img {
-    width: 130px;
-    height: auto;
+    width: auto;
+    height: 400px;
   }
   body #showPic #pic2 {
-    width: 450px;
-    height: 200px;
+    width: 800px;
+    height: 400px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
   }
   body #showPic #pic2 img {
-    height: 200px;
+    height: 400px;
     width: auto;
   }
   body #whiteBar2 {
-    width: 450px;
-    margin: 20 20 0 0;
+    width: 800px;
+    margin: 0 auto;
     text-align: center;
     height: 80px;
-    background-color: #000;
+    background-color: white;
+    margin-top: -100px;
   }
   body #coop {
-    width: 450px;
+    width: 800px;
     margin: 0 auto;
     text-align: center;
     height: 250px;
-    background-color: blueviolet;
+    background-color: black;
+    margin-top: 80px;
   }
   body #coop h3 {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
-    font-size: 15px;
-    margin-top: 0px;
+    font-size: 25px;
+    margin-top: 30px;
   }
   body #coop p {
     color: white;
@@ -253,18 +486,18 @@
   body #coop #coopIcon {
     display: flex;
     justify-content: space-around;
-    width: 300px;
+    width: 650px;
     text-align: center;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
   }
   body #coop #coopIcon img {
     height: auto;
-    width: 50px;
+    width: 80px;
   }
   body #Contact {
-    width: 450px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     margin: 0 auto;
     text-align: center;
     background-color: #ffffff;
@@ -276,7 +509,7 @@
     font-size: 20px;
   }
   body #conWay {
-    width: 450px;
+    width: 800px;
     text-align: center;
     margin: 0 auto;
     height: 120px;
@@ -285,24 +518,24 @@
     background-color: #ffda00;
   }
   body #conWay img {
-    width: 60px;
+    width: 160px;
     height: auto;
   }
   body footer {
-    width: 450px;
+    width: 800px;
     height: 200px;
     text-align: center;
     margin: 0 auto;
     background-color: #000;
   }
   body footer p {
-    width: 450px;
+    width: 800px;
     height: 50px;
     color: #ffda00;
     margin-top: 0px;
   }
   body footer #SC {
-    width: 300px;
+    width: 100px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -313,25 +546,9 @@
     height: auto;
   }
 }
-@media screen and (min-width: 450px) {
-  body {
-    background-color: black;
-  }
-  body .hidden {
-    display: none;
-  }
-  body * {
-    margin: 0;
-    border: 0;
-    padding: 0;
-  }
-  body h1 {
-    color: red;
-  }
-}
 @media screen and (min-width: 800px) {
   body {
-    background-color: black;
+    background-color: blueviolet;
     width: 1280px;
     text-align: center;
     margin: 0 auto;
@@ -366,153 +583,113 @@
     display: inline-block;
     font-size: 10px;
   }
-
-  header #socialMedia {
+  body header #socialMedia {
     float: right;
     position: relative;
     margin-top: 0px;
     padding-top: 0px;
     width: 1000px;
   }
-  header img {
+  body header img {
     width: 40px;
     height: 40px;
     float: right;
     margin-left: 30px;
     margin-top: 0px;
   }
-  header h1 {
+  body header h1 {
     color: #ffda00;
     text-align: center;
     width: 500px;
     margin: 0 auto;
     font-size: 46px;
     margin-top: 180px;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
   }
-  header p {
+  body header p {
     color: azure;
     font-size: 16px;
     width: 700px;
     margin: 0 auto;
     margin-top: 30px;
   }
-  header h2 {
+  body header h2 {
     color: #ffda00;
     width: 1200px;
     margin-top: 80px;
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
   }
-
-  #infoDetails {
-    width: 1280px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  #infoDetails #yellowBar {
+  body #yellowBar {
     width: 1280px;
     text-align: center;
     margin: 0 auto;
     background-color: #ffda00;
     height: 120px;
   }
-  #infoDetails #yellowBar p {
+  body #yellowBar p {
     font-size: 16px;
     color: black;
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
-  }
-  #infoDetails #Pro {
     width: 1280px;
+  }
+  body #pro1, body #pro2, body #pro3 {
+    display: inline-block;
+  }
+  body #Pro {
+    display: inline-block;
     margin: 0 auto;
     text-align: center;
-    height: 500px;
-    background-color: white;
-  }
-  #infoDetails #Pro #product {
+    background-color: #ffffff;
     width: 1280px;
-    height: 400px;
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 0px;
-    text-align: center;
-    margin: 0 auto;
+    height: 300px;
   }
-  #infoDetails #Pro #product img {
+  body #Pro img {
     width: 260px;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
   }
-  #infoDetails #Pro #product p {
-    color: black;
+  body #ButtonPart {
+    width: 1280px;
+    height: 120px;
+    background-color: #ffffff;
     text-align: center;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
   }
-  #infoDetails #Pro #product #pro1 img {
-    margin-left: 130px;
-    margin-top: 80px;
-  }
-  #infoDetails #Pro #product #pro1 h3 {
-    margin-top: -60px;
-  }
-  #infoDetails #Pro #product #pro1 p {
-    margin-top: 0px;
-  }
-  #infoDetails #Pro #product #pro2 h3 {
-    margin-left: -100px;
-    margin-top: -60px;
-  }
-  #infoDetails #Pro #product #pro2 p {
-    margin-top: 0px;
-    margin-left: -80px;
-  }
-  #infoDetails #Pro #product #APP h3 {
-    margin-left: -120px;
-    margin-top: -70px;
-  }
-  #infoDetails #Pro #product #APP p {
-    margin-left: -50px;
-  }
-
-  #videoPart {
+  body #videoPart {
     width: 1280px;
     height: 520px;
   }
-
-  #showPic {
+  body #showPic {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
     text-align: center;
   }
-  #showPic #whiteBar {
+  body #showPic #whiteBar {
     width: 1280px;
     height: 200px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
-  #showPic #whiteBar h3 {
+  body #showPic #whiteBar h3 {
     font-size: 30px;
     color: #ffda00;
     text-align: center;
     padding-top: 30px;
   }
-  #showPic #whiteBar p {
+  body #showPic #whiteBar p {
     font-size: 18px;
     color: black;
     text-align: center;
   }
-  #showPic #introPic {
+  body #showPic #introPic {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
@@ -520,16 +697,16 @@
     display: flex;
     justify-content: center;
   }
-  #showPic #introPic #picText {
+  body #showPic #introPic #picText {
     width: 500px;
     height: 400px;
     background-color: #ffda00;
   }
-  #showPic #introPic img {
+  body #showPic #introPic img {
     height: 400px;
     width: auto;
   }
-  #showPic #pic2 {
+  body #showPic #pic2 {
     width: 1280px;
     height: 400px;
     margin: 0 auto;
@@ -537,12 +714,11 @@
     display: flex;
     justify-content: center;
   }
-  #showPic #pic2 img {
+  body #showPic #pic2 img {
     height: 400px;
     width: auto;
   }
-
-  #whiteBar2 {
+  body #whiteBar2 {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
@@ -550,28 +726,27 @@
     background-color: #fff;
     margin-top: -380px;
   }
-
-  #coop {
+  body #coop {
     width: 1280px;
     margin: 0 auto;
     text-align: center;
     height: 300px;
     margin-top: 380px;
   }
-  #coop h3 {
+  body #coop h3 {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
     font-size: 15px;
     margin-top: 80px;
   }
-  #coop p {
+  body #coop p {
     color: white;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 80px;
   }
-  #coop #coopIcon {
+  body #coop #coopIcon {
     display: flex;
     justify-content: space-around;
     width: 800px;
@@ -579,25 +754,23 @@
     margin: 0 auto;
     margin-top: 80px;
   }
-  #coop #coopIcon img {
+  body #coop #coopIcon img {
     height: 50px;
     width: auto;
   }
-
-  #Contact {
+  body #Contact {
     width: 1280px;
     height: 500px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
-  #Contact h2 {
+  body #Contact h2 {
     margin-left: 10px;
     color: #ffda00;
     margin-top: 60px;
   }
-
-  #conWay {
+  body #conWay {
     width: 1280px;
     text-align: center;
     margin: 0 auto;
@@ -606,29 +779,28 @@
     justify-content: space-around;
     background-color: #ffda00;
   }
-  #conWay img {
+  body #conWay img {
     width: 60px;
     height: auto;
   }
-
-  footer {
+  body footer {
     width: 1280px;
     height: 200px;
     text-align: center;
     margin: 0 auto;
   }
-  footer p {
+  body footer p {
     width: 1280px;
     height: 50px;
     color: #ffda00;
   }
-  footer #SC {
+  body footer #SC {
     width: 800px;
     height: 50px;
     display: flex;
     justify-content: center;
   }
-  footer #SC img {
+  body footer #SC img {
     margin-left: 20px;
     width: 50px;
     height: auto;
