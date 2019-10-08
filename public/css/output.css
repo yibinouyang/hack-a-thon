@@ -399,50 +399,26 @@ body footer #SC img {
   body #videoPart {
     width: 800px;
     height: 600px;
+    background-color: grey;
   }
-  body #showPic {
+  body #introPic {
     width: 800px;
-    height: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  body #showPic #whiteBar {
-    width: 800px;
-    height: 120px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: white;
-  }
-  body #showPic #whiteBar h3 {
-    font-size: 20px;
-    color: #ffda00;
-    text-align: center;
-    padding-top: 30px;
-  }
-  body #showPic #whiteBar p {
-    font-size: 20px;
-    color: black;
-    text-align: center;
-  }
-  body #showPic #introPic {
-    width: 800px;
-    height: 300px;
+    height: 600px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     background-color: #ffda00;
-    overflow: hidden;
   }
-  body #showPic #introPic #picText {
-    width: 400px;
+  body #introPic #picText {
+    width: 300px;
     height: 400px;
   }
-  body #showPic #introPic img {
+  body #introPic img {
+    height: 400px;
     width: auto;
-    height: 400px;
   }
-  body #showPic #pic2 {
+  body #pic2 {
     width: 800px;
     height: 400px;
     margin: 0 auto;
@@ -450,7 +426,7 @@ body footer #SC img {
     display: flex;
     justify-content: center;
   }
-  body #showPic #pic2 img {
+  body #pic2 img {
     height: 400px;
     width: auto;
   }
@@ -458,16 +434,16 @@ body footer #SC img {
     width: 800px;
     margin: 0 auto;
     text-align: center;
-    height: 80px;
-    background-color: white;
-    margin-top: -100px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 0px;
   }
   body #coop {
     width: 800px;
     margin: 0 auto;
     text-align: center;
     height: 250px;
-    background-color: black;
+    background-color: white;
     margin-top: 80px;
   }
   body #coop h3 {
@@ -486,14 +462,14 @@ body footer #SC img {
   body #coop #coopIcon {
     display: flex;
     justify-content: space-around;
-    width: 650px;
+    width: 450px;
     text-align: center;
     margin: 0 auto;
     margin-top: 60px;
   }
   body #coop #coopIcon img {
     height: auto;
-    width: 80px;
+    width: 40px;
   }
   body #Contact {
     width: 800px;
