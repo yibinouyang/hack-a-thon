@@ -35,7 +35,7 @@ body{
             }
             #logo{
                 width: 450px;
-                height: 50px;
+                height: 130px;
                 margin: 0 auto;
                 text-align: center;
                 background-color: grey;
@@ -97,10 +97,10 @@ body{
                 text-align: center;
                 margin: 0 auto;
                 background-color: #ffda00;
-                height: 50px;
-                margin-top: -50px;
+                height: 80px;
+                margin-top: -30px;
                 p{
-                    font-size: 23px;
+                    font-size: 13px;
                     color: whitesmoke;
                     text-align: center;
                     margin-top: 30px;
@@ -134,7 +134,7 @@ body{
         #ButtonPart{
             width: 450px;
             height: 80px;
-            background-color: #000;
+            background-color: #fff;
             text-align: center;
             margin: 0 auto;
         }
@@ -146,7 +146,7 @@ body{
         
         #videoPart{
             width: 450px;
-            height: 400px;
+            height: 200px;
             background-color: grey;
             video{
                 width: 300px;
@@ -158,18 +158,18 @@ body{
 
             #whiteBar{
                 width: 450px;
-                height: 100px;
+                height: 80px;
                 margin: 0 auto;
                 text-align: center;
                 background-color: #fff;
                 h3{
-                    font-size: 18px;
+                    font-size: 22px;
                     color: #ffda00;
                     text-align: center;
                     padding-top: 30px;
                 }
                 p{
-                    font-size: 10px;
+                    font-size: 16px;
                     color: blueviolet;
                     text-align: center;
                 }
@@ -345,6 +345,7 @@ body{
                     height: 130px;
                     margin: 0 auto;
                     text-align: center;
+                    background-color: #000;
                     img{
                         width: 130px;
                         height: auto;
@@ -422,7 +423,7 @@ body{
                         width: 800px;
                         height: 800px;;
                         img{
-                            width: 260px;
+                            width: 100px;
                             display: inline-block;
                             margin: 0 auto;
                             text-align: center;
@@ -440,7 +441,7 @@ body{
                 } 
                 #ButtonPart{
                     width: 800px;
-                    height: 120px;
+                    height: 80px;
                     background-color: black;
                     text-align: center;
                     margin: 0 auto;
@@ -452,6 +453,10 @@ body{
                 width: 800px;
                 height: 450px;
                 background-color: grey;
+                video{
+                    width: 350px;
+                    height: auto;
+                }
             }
             #introPic{
                 width: 800px;
@@ -523,6 +528,7 @@ body{
                     margin-top: 30px;
                     margin-bottom: 80px;
                     width: 500px;
+                    margin-left: 80px;
                 }
                 #coopIcon{
                     display: flex;
@@ -641,6 +647,7 @@ body{
             height: 50px;
             margin: 0 auto;
             text-align: center;
+            background-color: #000;
             img{
                 width: 130px;
                 height: auto;
@@ -868,6 +875,11 @@ body{
                 margin-top: 60px;
     
             }
+            p{
+                width: 450px;
+                text-align: center;
+                margin: 0 auto;
+            }
         }
         #conWay{
             width: 1280px;
@@ -878,8 +890,9 @@ body{
             justify-content: space-around;
             background-color: #ffda00;
             img{
-                width: 60px;
+                width: 80px;
                 height: auto;
+                margin-top: 10px;
             }
         }
         footer{
@@ -898,6 +911,8 @@ body{
                 height: 50px;
                 display: flex;
                 justify-content: center;
+                text-align: center;
+
                 img{
                     margin-left: 20px;
                     width: 50px;
