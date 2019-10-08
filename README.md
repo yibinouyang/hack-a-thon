@@ -3,10 +3,9 @@
 
 #yibin-OY-yufeng-L-Mengyang-L-Singh-Harwinder_Hackathon
 
-
-We are tasked with making a website for a newly established advertising company.Include three pages(contact,about,homepage).These three fit in the desktop, phone and tablet.
-
-What we did is designed all wireframes, 3desktop pages, 3tablet pages and 3mobile pages using mainly Photoshop and Illustrator and built using CSS, HTML, JavaScript.
+###Assignment Description
+The basis of this assignment is to create an interactive application using 3D, video, and still images. Design and develop an engaging experience for the end user with which they can interact in a one-page mobile-first web application.What we did is designed all wireframes, 1desktop pages, 1tablet pages and 1mobile pages using mainly Photoshop and Illustrator and built using CSS, HTML, JavaScript.
+and we need ues C4D to build a Smart Thermostat add design a UI for this Smart Thermostat.
 
 
 
@@ -15,17 +14,19 @@ Html5, css, and Java Script.
 
 Designed with Photoshop and Illustrator, a style guide for Indesign.
 
-Made an animation with after effect Premiere Pro.
+The Smart Thermostat model Aand rendering the animation by C4d .
 
 ## Authors
 
-*yibin OY (Developer)*
+*yibin OY （Front_End and Back_End Developer)*
 
-*Yufeng Lin (Developer)*
+*Yufeng Lin (Motion Designer)*
 
-*MengYang Li (Designer)*
+*MengYang Li (Graphics Designer Project Manager)*
 
-*Inderijit Singh (Designer)*
+*Inderijit Singh (Graphics Designer)*
+
+*Dahele Harwinder（Graphics Designer）*
 
 
 ## Acknowledgments
