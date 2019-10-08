@@ -34,6 +34,18 @@ body .button1 {
   display: inline-block;
   font-size: 15px;
 }
+body #logoPart {
+  width: 450px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+body #logoPart img {
+  width: 130px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
 body header {
   background-color: #000;
   margin: 0 auto;
@@ -47,8 +59,8 @@ body header #socialMedia {
   width: 300px;
 }
 body header img {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   float: right;
   margin-left: 20px;
   margin-top: 0px;
@@ -58,7 +70,7 @@ body header h1 {
   text-align: center;
   width: 250px;
   margin: 0 auto;
-  font-size: 26px;
+  font-size: 36px;
   margin-top: 80px;
   letter-spacing: 2px;
 }
@@ -99,13 +111,14 @@ body #Pro {
   text-align: center;
   background-color: black;
   width: 450px;
-  height: 600px;
+  height: 400px;
 }
 body #Pro img {
   width: 160px;
   display: inline-block;
   margin: 0 auto;
   text-align: center;
+  margin-top: 100px;
 }
 body #Pro h3 {
   color: #ffda00;
@@ -127,21 +140,29 @@ body #videoPart {
 }
 body #whiteBar {
   width: 450px;
-  height: 80px;
+  height: 120px;
   margin: 0 auto;
   text-align: center;
   background-color: #000;
 }
 body #whiteBar h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffda00;
   text-align: center;
   padding-top: 30px;
 }
 body #whiteBar p {
-  font-size: 13px;
+  font-size: 10px;
   color: white;
   text-align: center;
+}
+body .pic11 img {
+  width: 130px;
+  height: auto;
+}
+body .pic22 img {
+  width: 112.5px;
+  height: auto;
 }
 body #introPic {
   width: 450px;
@@ -299,6 +320,18 @@ body footer #SC img {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
+  }
+  body #logoPart {
+    width: 800px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body #logoPart img {
+    width: 130px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
   }
   body header {
     background-color: #000;
@@ -561,6 +594,18 @@ body footer #SC img {
     display: inline-block;
     font-size: 10px;
   }
+  body #logoPart {
+    width: 1280px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body #logoPart img {
+    width: 130px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
   body header #socialMedia {
     float: right;
     position: relative;
@@ -618,6 +663,9 @@ body footer #SC img {
   body #pro1, body #pro2, body #pro3 {
     display: inline-block;
   }
+  body #pro1 img, body #pro2 img, body #pro3 img {
+    width: 260px;
+  }
   body #Pro {
     display: inline-block;
     margin: 0 auto;
@@ -645,21 +693,29 @@ body footer #SC img {
   }
   body #whiteBar {
     width: 1280px;
-    height: 60px;
+    height: 120px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
   body #whiteBar h3 {
-    font-size: 30px;
+    font-size: 20px;
     color: #ffda00;
     text-align: center;
     padding-top: 30px;
   }
   body #whiteBar p {
-    font-size: 18px;
+    font-size: 15px;
     color: black;
     text-align: center;
+  }
+  body .pic11 img {
+    width: 300px;
+    height: auto;
+  }
+  body .pic22 img {
+    width: 320px;
+    height: auto;
   }
   body #introPic {
     width: 1280px;
@@ -669,6 +725,7 @@ body footer #SC img {
     display: flex;
     justify-content: center;
     background-color: #ffda00;
+    overflow: hidden;
   }
   body #introPic #picText {
     width: 500px;
@@ -754,7 +811,7 @@ body footer #SC img {
     background-color: #ffda00;
   }
   body #conWay img {
-    width: 60px;
+    width: 120px;
     height: auto;
   }
   body footer {
@@ -770,7 +827,7 @@ body footer #SC img {
     margin-top: 20px;
   }
   body footer #SC {
-    width: 800px;
+    width: 400px;
     height: 50px;
     display: flex;
     justify-content: center;
