@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffff;
+    background-color: grey;
     width: 450px;
     text-align: center;
     margin: 0 auto;
@@ -68,9 +68,9 @@ body{
         h1{
             color: #ffda00;
             text-align: center;
-            width: 250px;
+            width: 300px;
             margin: 0 auto;
-            font-size: 36px;
+            font-size: 30px;
             margin-top: 80px;
             letter-spacing:2px;
             font-family: 'Be Vietnam', sans-serif;
@@ -89,7 +89,7 @@ body{
             margin-top: 80px;
             margin: 0 auto;
             text-align: center;
-            font-size: 16px;
+            font-size: 20px;
             letter-spacing: 2px;
             font-family: 'Be Vietnam', sans-serif;
         }
@@ -153,6 +153,13 @@ body{
             width: 450px;
             height: 200px;
             background-color: grey;
+            h2{
+                text-align: center;
+                margin: 0 auto;
+                color: #000;
+                font-size: 22px;
+                font-family: 'Be Vietnam', sans-serif;
+            }
             video{
                 width: 300px;
                 height: auto;
@@ -488,6 +495,13 @@ body{
                 width: 800px;
                 height: 350px;
                 background-color: grey;
+                h2{
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #000;
+                    font-size: 25px;
+                    font-family: 'Be Vietnam', sans-serif;
+                }
                 video{
                     width: 600px;
                     height: auto;
@@ -564,7 +578,7 @@ body{
                     margin-top: 30px;
                     margin-bottom: 80px;
                     width: 500px;
-                    margin-left: 80px;
+                    margin-left: 160px;
                     font-family: 'Fjalla One', sans-serif;
                 }
                 #coopIcon{
@@ -804,6 +818,13 @@ body{
         #videoPart{
             width: 1280px;
             height: 520px;
+            h2{
+                text-align: center;
+                margin: 0 auto;
+                color: #360575;
+                font-size: 30px;
+                font-family: 'Be Vietnam', sans-serif;
+            }
             video{
                 width: 800px;
                 height: auto;
@@ -904,7 +925,7 @@ body{
                 color: white;
                 text-align: center;
                 margin-top: 30px;
-                margin-left: 300px;
+                margin-left: 450px;
                 margin-bottom: 80px;
                 font-family: 'Fjalla One', sans-serif;
             
