@@ -33,7 +33,7 @@
                 display: inline-block;
                 font-size: 15px;
             }
-            #logoPart{
+            #logo{
                 width: 450px;
                 height: 50px;
                 margin: 0 auto;
@@ -345,7 +345,7 @@
                     display: inline-block;
                     font-size: 15px;
                 }
-                #logoPart{
+                #logo{
                     width: 800px;
                     height: 50px;
                     margin: 0 auto;
@@ -637,8 +637,8 @@
                 font-size: 10px;
             
         }
-        #logoPart{
-            width: 1280px;
+        #logo{
+            width: 300px;
             height: 50px;
             margin: 0 auto;
             text-align: center;
@@ -788,8 +788,8 @@
                 }
                 img{
                    
-                    height: 400px; 
-                     width:auto;
+                    height: auto; 
+                     width:300px;
                 }
             }
             #pic2{
@@ -800,8 +800,8 @@
                 display: flex;
                 justify-content: center;
                 img{
-                    height: 400px;
-                    width: auto;
+                    height: auto;
+                    width: 320px;
                 }
             }
         #whiteBar2{
@@ -870,7 +870,7 @@
             justify-content: space-around;
             background-color: #ffda00;
             img{
-                width: 120px;
+                width: 60px;
                 height: auto;
             }
         }
