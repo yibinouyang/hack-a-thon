@@ -608,7 +608,7 @@
             font-size: 10px;
         }
         .button1{
-            .button{
+            
                 background-color: #ffda00;
                 border-radius: 0px;
                 border: solid 1px #fff;
@@ -618,7 +618,7 @@
                 text-decoration: none;
                 display: inline-block;
                 font-size: 10px;
-            }
+            
         }
         header{
             #socialMedia {
@@ -709,11 +709,7 @@
             width: 1280px;
             height: 520px;
         }
-        #showPic{
-            width: 1280px;
-            height: 800px;
-            margin: 0 auto;
-            text-align: center;
+       
             #whiteBar{
                 width: 1280px;
                 height: 200px;
@@ -739,8 +735,8 @@
                 text-align: center;
                 display: flex;
                 justify-content:center;
-                background-color: #ffda00
-             #picText{
+                background-color: #ffda00;
+                #picText{
                     width: 500px;
                     height: 400px;
                 }
@@ -762,7 +758,6 @@
                     width: auto;
                 }
             }
-        }
         #whiteBar2{
             width: 1280px;
             margin: 0 auto;
@@ -807,7 +802,7 @@
         }
         #Contact{
             width: 1280px;
-            height: 500px;
+            height: 600px;
             margin: 0 auto;
             text-align: center;
             background-color: #fff;
@@ -853,6 +848,4 @@
                 }
     
                 }
-            }
-    
-        }}
+            }}}
