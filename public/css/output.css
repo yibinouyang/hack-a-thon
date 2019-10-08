@@ -242,7 +242,7 @@ body #Contact {
   height: 300px;
   margin: 0 auto;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #7d648b;
 }
 body #Contact h2 {
   margin-left: 10px;
@@ -250,6 +250,23 @@ body #Contact h2 {
   margin-top: 60px;
   font-size: 20px;
   font-family: "Be Vietnam", sans-serif;
+}
+body #Contact #chart11 {
+  max-width: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+body #Contact #Contact1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+body #Contact #contactForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 40px;
 }
 body #conWay {
   width: 450px;
@@ -540,7 +557,7 @@ body footer #SC img {
     height: 400px;
     margin: 0 auto;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #7d648b;
   }
   body #Contact h2 {
     margin-left: 10px;
@@ -548,6 +565,23 @@ body footer #SC img {
     margin-top: 60px;
     font-size: 20px;
     font-family: "Be Vietnam", sans-serif;
+  }
+  body #Contact #chart11 {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  body #Contact #Contact1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  body #Contact #contactForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 130px;
+    margin-top: 40px;
   }
   body #conWay {
     width: 800px;
@@ -838,10 +872,10 @@ body footer #SC img {
   }
   body #Contact {
     width: 1280px;
-    height: 600px;
+    height: 300px;
     margin: 0 auto;
     text-align: center;
-    background-color: #fff;
+    background-color: #7d648b;
     margin-top: -50px;
   }
   body #Contact #chart11 {
