@@ -548,7 +548,7 @@ body footer #SC img {
 }
 @media screen and (min-width: 800px) {
   body {
-    background-color: blueviolet;
+    background-color: black;
     width: 1280px;
     text-align: center;
     margin: 0 auto;
@@ -696,11 +696,9 @@ body footer #SC img {
     text-align: center;
     display: flex;
     justify-content: center;
-  }
-  body #showPic #introPic #picText {
-    width: 500px;
-    height: 400px;
-    background-color: #ffda00;
+    background-color: #ffda00 #picText;
+    background-color-width: 500px;
+    background-color-height: 400px;
   }
   body #showPic #introPic img {
     height: 400px;
@@ -724,7 +722,7 @@ body footer #SC img {
     text-align: center;
     height: 100px;
     background-color: #fff;
-    margin-top: -380px;
+    margin-top: 0px;
   }
   body #coop {
     width: 1280px;
@@ -737,7 +735,7 @@ body footer #SC img {
     color: #ffda00;
     text-align: center;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: 25px;
     margin-top: 80px;
   }
   body #coop p {
