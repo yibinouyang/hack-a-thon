@@ -620,10 +620,6 @@
                 font-size: 10px;
             }
         }
-        background-color: blueviolet;
-        width: 1280px;
-        text-align: center;
-        margin: 0 auto;
         header{
             #socialMedia {
                 float: right;
@@ -743,10 +739,10 @@
                 text-align: center;
                 display: flex;
                 justify-content:center;
-                #picText{
+                background-color: #ffda00
+             #picText{
                     width: 500px;
                     height: 400px;
-                    background-color:#ffda00;
                 }
                 img{
                    
@@ -773,7 +769,7 @@
             text-align: center;
             height: 100px;
             background-color: #fff;
-            margin-top: -380px;
+            margin-top: 0px;
     
         }
         #coop{
@@ -786,7 +782,7 @@
                 color: #ffda00;
                 text-align: center;
                 margin: 0 auto; 
-                font-size: 15px;
+                font-size: 25px;
                 margin-top: 80px;
             }
             p{
