@@ -572,7 +572,7 @@ body footer #SC img {
     display: inline-block;
     font-size: 10px;
   }
-  body .button1 .button {
+  body .button1 {
     background-color: #ffda00;
     border-radius: 0px;
     border: solid 1px #fff;
@@ -665,46 +665,42 @@ body footer #SC img {
     width: 1280px;
     height: 520px;
   }
-  body #showPic {
-    width: 1280px;
-    height: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  body #showPic #whiteBar {
+  body #whiteBar {
     width: 1280px;
     height: 200px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
   }
-  body #showPic #whiteBar h3 {
+  body #whiteBar h3 {
     font-size: 30px;
     color: #ffda00;
     text-align: center;
     padding-top: 30px;
   }
-  body #showPic #whiteBar p {
+  body #whiteBar p {
     font-size: 18px;
     color: black;
     text-align: center;
   }
-  body #showPic #introPic {
+  body #introPic {
     width: 1280px;
     height: 800px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: #ffda00 #picText;
-    background-color-width: 500px;
-    background-color-height: 400px;
+    background-color: #ffda00;
   }
-  body #showPic #introPic img {
+  body #introPic #picText {
+    width: 500px;
+    height: 400px;
+  }
+  body #introPic img {
     height: 400px;
     width: auto;
   }
-  body #showPic #pic2 {
+  body #pic2 {
     width: 1280px;
     height: 400px;
     margin: 0 auto;
@@ -712,7 +708,7 @@ body footer #SC img {
     display: flex;
     justify-content: center;
   }
-  body #showPic #pic2 img {
+  body #pic2 img {
     height: 400px;
     width: auto;
   }
@@ -758,7 +754,7 @@ body footer #SC img {
   }
   body #Contact {
     width: 1280px;
-    height: 500px;
+    height: 600px;
     margin: 0 auto;
     text-align: center;
     background-color: #fff;
